@@ -16,7 +16,7 @@ namespace AdoNetCorePractica2Departamentos.Helpers
                 .AddJsonFile("appsettings.json", false, true);
             IConfigurationRoot configuration = builder.Build();
             string connectionString =
-                configuration.GetConnectionString("SqlTajamar");
+                configuration.GetConnectionString("SqlCasa");
             return connectionString;
         }
     }

@@ -89,6 +89,7 @@
             lstEmpleados.Name = "lstEmpleados";
             lstEmpleados.Size = new Size(268, 184);
             lstEmpleados.TabIndex = 4;
+            lstEmpleados.SelectedIndexChanged += lstEmpleados_SelectedIndexChanged;
             // 
             // btnUpdateEmpleado
             // 
@@ -98,6 +99,7 @@
             btnUpdateEmpleado.TabIndex = 5;
             btnUpdateEmpleado.Text = "Update Empleado";
             btnUpdateEmpleado.UseVisualStyleBackColor = true;
+            btnUpdateEmpleado.Click += btnUpdateEmpleado_Click;
             // 
             // btnInsertarDepartamento
             // 
@@ -107,6 +109,7 @@
             btnInsertarDepartamento.TabIndex = 6;
             btnInsertarDepartamento.Text = "Insertar Departamento";
             btnInsertarDepartamento.UseVisualStyleBackColor = true;
+            btnInsertarDepartamento.Click += btnInsertarDepartamento_Click;
             // 
             // label2
             // 
